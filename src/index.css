@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "OpenSans";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src:
+        url("assets/fonts/opensans.woff2") format("woff2"),
+        url("assets/fonts/opensans.woff") format("woff");
+}
+
+@font-face {
+    font-family: "OpenSans";
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src:
+        url("assets/fonts/opensansbold.woff2") format("woff2"),
+        url("assets/fonts/opensansbold.woff") format("woff");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "OpenSans", sans-serif;
+}
+
+
